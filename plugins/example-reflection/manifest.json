@@ -1,0 +1,12 @@
+{
+  "name": "example-reflection",
+  "api_version": 1,
+  "version": "1.0.0",
+  "description": "空闲时挑一条高权重记忆重读，写一句新的反思进日记草稿",
+  "capabilities": ["reflect"],
+  "tier_access": ["L1"],
+  "token_budget": 300,
+  "priority": 5,
+  "cooldown_s": 1800,
+  "storage_quota": 65536
+}
