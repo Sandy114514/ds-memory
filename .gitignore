@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# 运行期数据（记忆库、备份、演示产物）
+*.db
+*.db-wal
+*.db-shm
+*.zip
+.dsmem/
+demo_memory.db*
+
+# 本地配置与密钥
+.env
+.env.*
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
